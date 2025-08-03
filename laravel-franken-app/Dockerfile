@@ -2,7 +2,6 @@ FROM dunglas/frankenphp:latest-php8.3
 
 # 必要なPHP拡張機能のインストール
 RUN install-php-extensions \
-    pdo_mysql \
     mbstring \
     exif \
     pcntl \
